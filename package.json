@@ -11,6 +11,7 @@
     "manifest": "src/manifest.json",
     "main": "plugin.lorem-ipsum"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "build": "skpm-build",
     "watch": "skpm-build --watch",
