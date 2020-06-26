@@ -1,0 +1,29 @@
+{
+  "identifier": "com.sketchapp.plugin.loremipsum",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "script": "paragraphs.js",
+      "name": "Paragraphs",
+      "identifier": "paragraphs"
+    },
+    {
+      "script": "words.js",
+      "name": "Words",
+      "identifier": "words"
+    },
+    {
+      "script": "sentences.js",
+      "name": "Sentences",
+      "identifier": "sentences"
+    }
+  ],
+  "menu": {
+    "items": [
+      "paragraphs",
+      "words",
+      "sentences"
+    ]
+  }
+}

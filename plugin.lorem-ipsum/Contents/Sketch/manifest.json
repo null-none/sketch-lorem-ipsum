@@ -1,0 +1,30 @@
+{
+  "identifier": "com.sketchapp.plugin.loremipsum",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "script": "paragraphs.js",
+      "name": "Paragraphs",
+      "identifier": "paragraphs"
+    },
+    {
+      "script": "words.js",
+      "name": "Words",
+      "identifier": "words"
+    }
+  ],
+  "menu": {
+    "items": [
+      "paragraphs",
+      "words"
+    ]
+  },
+  "version": "2.0.0",
+  "description": "Lipsum generator",
+  "name": "Lorem Ipsum",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Dmitry Kainin",
+  "authorEmail": "kalinin.mitko@gmail.com"
+}

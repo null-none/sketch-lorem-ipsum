@@ -1,0 +1,26 @@
+{
+  "name": "sketch-lorem-ipsum",
+  "description": "Lipsum generator",
+  "author": "Dmitry Kainin <kalinin.mitko@gmail.com>",
+  "version": "2.0.0",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "Lorem Ipsum",
+    "manifest": "src/manifest.json",
+    "main": "plugin.lorem-ipsum"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.4.0"
+  },
+  "dependencies": {
+    "lorem-ipsum": "^2.0.3"
+  }
+}
