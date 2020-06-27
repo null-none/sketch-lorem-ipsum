@@ -1,4 +1,4 @@
-# Lipsum generator
+# Sketch plugin "Lipsum generator"
 
 Install the dependencies
 
