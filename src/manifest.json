@@ -1,27 +1,23 @@
 {
-  "identifier": "com.sketchapp.plugin.loremipsum",
+  "identifier": "com.sketchapp.app.loremipsum",
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "commands": [
     {
-      "script": "paragraphs.js",
-      "name": "Paragraphs",
-      "identifier": "paragraphs"
-    },
-    {
-      "script": "words.js",
+      "script": "loremipsum.js",
       "name": "Words",
-      "identifier": "words"
+      "identifier": "words",
+      "handler": "addWords"
     },
     {
-      "script": "sentences.js",
+      "script": "loremipsum.js",
       "name": "Sentences",
-      "identifier": "sentences"
+      "identifier": "sentences",
+      "handler": "addSentences"
     }
   ],
   "menu": {
     "items": [
-      "paragraphs",
       "words",
       "sentences"
     ]
